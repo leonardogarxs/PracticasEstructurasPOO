@@ -11,5 +11,6 @@ public abstract class EstructuraBase<T extends Comparable<T>> implements IEstruc
         return tamanio == 0;
     }
 
+    // Este método lo llenaremos cuando hagamos Pilas y Colas
     public abstract void limpiar();
 }
